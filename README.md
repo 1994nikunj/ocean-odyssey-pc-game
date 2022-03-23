@@ -1,13 +1,11 @@
 # CS-555-C:  Agile Methods for Software Development
-## " Team BOLT "
 
-![](assets/ICON.png)
-
+![](assets/team_logo_small.png)
 
 ### Project Members:
-
-    -> Harshal Panpaliya
-    -> Kobe Dawes
-    -> Nikunj Sharma (Scrum Master)
-    -> Zhaorui Wang
-    -> Shubham Jiyani
+    # Harshal Panpaliya
+    # Kobe Dawes
+    # Nikunj Sharma (Scrum Master)
+    # Zhaorui Wang
+    # Shubham Jiyani
+    # Sai Kiran Mavurapu
