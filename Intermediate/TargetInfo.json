@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EnvironmentProject",
+			"Path": "C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Source\\EnvironmentProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EnvironmentProjectEditor",
+			"Path": "C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Source\\EnvironmentProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

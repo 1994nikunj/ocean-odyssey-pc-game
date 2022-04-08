@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EnvironmentProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{838288C4-EEC7-40E8-822D-094BD4279B0E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EnvironmentProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EnvironmentProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.gitmodules" />
+    <None Include="..\..\CleanProjectAndPlugins.bat" />
+    <None Include="..\..\CREDITS.md" />
+    <None Include="..\..\EnvironmentProject.png" />
+    <None Include="..\..\INSTALL.md" />
+    <None Include="..\..\LICENSE" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\SM_OceanTop.FBX" />
+    <None Include="..\..\SM_UnderWater2.FBX" />
+    <None Include="..\..\TopMesh.blend" />
+    <None Include="..\..\UnderwaterBodyMesh.blend" />
+    <None Include="..\..\UnderwaterBodyMesh.fbx" />
+    <None Include="..\..\UnderwaterMesh.blend" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{3F81D983-98F7-40AD-A1BA-2954E9C987D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{0F53B6D9-13BF-409A-BF34-5161C15171C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BuoyancyPlugin">
+      <UniqueIdentifier>{872C4ECF-F90B-43B4-929F-5A945AE75C06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BuoyancyPlugin\Source">
+      <UniqueIdentifier>{86A8F66A-0BBF-4B03-931D-FAB0DB1D118E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BuoyancyPlugin\Source\BuoyancyPlugin">
+      <UniqueIdentifier>{9386FB45-C7F9-43D7-84E1-1A45EC80D580}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\BuoyancyPlugin.Build.cs">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private">
+      <UniqueIdentifier>{B3F45DDE-A618-44BC-B61C-F8AD97955CD0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyancyPlugin.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantComponent.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantDestructible.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantDestructibleComponent.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantForceComponent.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\AdvancedBuoyantComponent">
+      <UniqueIdentifier>{BB8E5DA2-03B5-4B54-B15E-C8B0491331E6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\AdvancedBuoyantComponent\AdvancedBuoyantComponent.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\AdvancedBuoyantComponent</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh">
+      <UniqueIdentifier>{09A31690-EF8A-4258-B67D-9299A512A382}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh\BuoyantMeshComponent.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh\BuoyantMeshSubtriangle.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh\BuoyantMeshTriangle.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh\BuoyantMeshVertex.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh\WaterHeightmapComponent.cpp">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public">
+      <UniqueIdentifier>{20916204-ADEF-4E64-A298-FA27C5EBAC47}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyancyPlugin.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantComponent.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantDestructible.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantDestructibleComponent.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantForceComponent.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\AdvancedBuoyantComponent">
+      <UniqueIdentifier>{551FDEA6-8F78-40B0-BBF4-077C84341FE8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\AdvancedBuoyantComponent\AdvancedBuoyantComponent.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\AdvancedBuoyantComponent</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh">
+      <UniqueIdentifier>{A38DCB20-8919-401B-8E7B-231EE9C0E05D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh\BuoyantMeshComponent.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh\BuoyantMeshSubtriangle.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh\BuoyantMeshTriangle.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh\BuoyantMeshVertex.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh\WaterHeightmapComponent.h">
+      <Filter>Plugins\BuoyancyPlugin\Source\BuoyancyPlugin\Public\BuoyantMesh</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\BuoyancyPlugin\BuoyancyPlugin.uplugin">
+      <Filter>Plugins\BuoyancyPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\BuoyancyPlugin\Config">
+      <UniqueIdentifier>{3D96A83D-75C6-47A5-A91C-67A0834ADE01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BuoyancyPlugin\Config\DefaultBuoyancyPlugin.ini">
+      <Filter>Plugins\BuoyancyPlugin\Config</Filter>
+    </None>
+    <Filter Include="Plugins\BuoyancyPlugin\Resources">
+      <UniqueIdentifier>{2D0DE648-B5E5-4AF8-A2ED-0129D562F35E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BuoyancyPlugin\Resources\Icon128.png">
+      <Filter>Plugins\BuoyancyPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\FishPlugin">
+      <UniqueIdentifier>{5C5D783B-8B02-4E01-9403-569553D4242F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FishPlugin\FishPlugin.uplugin">
+      <Filter>Plugins\FishPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\FishPlugin\Resources">
+      <UniqueIdentifier>{423FA4D4-F7FD-4AE5-AC1F-C22DDD090650}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FishPlugin\Resources\Icon128.png">
+      <Filter>Plugins\FishPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\OceanPlugin">
+      <UniqueIdentifier>{EF790A8D-9CF0-4F98-A2D3-F584C2BFD24A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OceanPlugin\OceanPlugin.uplugin">
+      <Filter>Plugins\OceanPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\SkyPlugin">
+      <UniqueIdentifier>{133E35F8-756E-4D7D-A357-C6FAEFEF1F38}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SkyPlugin\SkyPlugin.uplugin">
+      <Filter>Plugins\SkyPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\SkyPlugin\Resources">
+      <UniqueIdentifier>{6071C5BD-24B3-4AA3-A338-A80139633195}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SkyPlugin\Resources\Icon128.png">
+      <Filter>Plugins\SkyPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\TimePlugin">
+      <UniqueIdentifier>{50658202-19E8-4104-A5FE-D1D2A24FDAE2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TimePlugin\TimePlugin.uplugin">
+      <Filter>Plugins\TimePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\TimePlugin\Resources">
+      <UniqueIdentifier>{1D967090-8416-4FC5-B153-8A676BD6E5B8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TimePlugin\Resources\Icon128.png">
+      <Filter>Plugins\TimePlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\WeatherDataPlugin">
+      <UniqueIdentifier>{0E6897E0-2D45-4580-8E40-5AE9AA1A4E70}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\WeatherDataPlugin\WeatherDataPlugin.uplugin">
+      <Filter>Plugins\WeatherDataPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\WeatherDataPlugin\Resources">
+      <UniqueIdentifier>{319584BC-ED30-496B-BD4E-C520584402A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\WeatherDataPlugin\Resources\Icon128.png">
+      <Filter>Plugins\WeatherDataPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\FishPlugin\Source">
+      <UniqueIdentifier>{26AD41BC-076B-4C3C-9359-92488FF4DB19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FishPlugin\Source\FishPlugin">
+      <UniqueIdentifier>{2F6E277C-37BB-413D-98D6-F6E3B325AE3A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FishPlugin\Source\FishPlugin\FishPlugin.Build.cs">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\FishPlugin\Source\FishPlugin\Private">
+      <UniqueIdentifier>{9F6F12D5-B071-422D-90B0-D94727BBB037}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Private\FishManager.cpp">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Private\FishPlugin.cpp">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Private\FishState.cpp">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Private\FlockFish.cpp">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FishPlugin\Source\FishPlugin\Public">
+      <UniqueIdentifier>{2C4F4445-DE56-4DE6-AD15-BBD4393B020D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Public\FishManager.h">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Public\FishPlugin.h">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Public\FishState.h">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FishPlugin\Source\FishPlugin\Public\FlockFish.h">
+      <Filter>Plugins\FishPlugin\Source\FishPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OceanPlugin\Source">
+      <UniqueIdentifier>{49C82E6F-6586-4D78-8FD3-27FB95FCB052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin">
+      <UniqueIdentifier>{B404536F-BC28-4FFB-BB6B-4CDE1E769A9E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\OceanPlugin.Build.cs">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Private">
+      <UniqueIdentifier>{2587191C-B14F-4BDA-B3AB-B73D119B0BF4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\InfiniteSystemComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\OceanManager.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\OceanPlugin.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Public">
+      <UniqueIdentifier>{B29DDEF4-3AD5-4A0F-9129-F4B2E1120B24}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Public\InfiniteSystemComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Public\OceanManager.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Public\OceanPlugin.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SkyPlugin\Source">
+      <UniqueIdentifier>{9284D929-A0FB-424E-B760-20EC4CA67673}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SkyPlugin\Source\SkyPlugin.Build.cs">
+      <Filter>Plugins\SkyPlugin\Source</Filter>
+    </None>
+    <Filter Include="Plugins\SkyPlugin\Source\Private">
+      <UniqueIdentifier>{832CA4D8-6CBC-4AFF-AC61-682E93EF644D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SkyPlugin\Source\Private\SkyFunctionLibrary.h">
+      <Filter>Plugins\SkyPlugin\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SkyPlugin\Source\Private\SkyManager.cpp">
+      <Filter>Plugins\SkyPlugin\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SkyPlugin\Source\Private\SkyPlugin.cpp">
+      <Filter>Plugins\SkyPlugin\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SkyPlugin\Source\Private\UtilityFunctions.h">
+      <Filter>Plugins\SkyPlugin\Source\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SkyPlugin\Source\Public">
+      <UniqueIdentifier>{37DE73C1-7DD3-490A-9E3D-ADE3C9DB841A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SkyPlugin\Source\Public\SkyManager.h">
+      <Filter>Plugins\SkyPlugin\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SkyPlugin\Source\Public\SkyPlugin.h">
+      <Filter>Plugins\SkyPlugin\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\TimePlugin\Source">
+      <UniqueIdentifier>{5E819116-D737-45F5-AC17-F17E4C49281C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TimePlugin\Source\TimePlugin.Build.cs">
+      <Filter>Plugins\TimePlugin\Source</Filter>
+    </None>
+    <Filter Include="Plugins\TimePlugin\Source\Private">
+      <UniqueIdentifier>{4FEA6E1C-CA72-4CF3-AB44-F3DCBCC8F24F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\TimePlugin\Source\Private\TimeDateStruct.cpp">
+      <Filter>Plugins\TimePlugin\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\TimePlugin\Source\Private\TimeFunctionLibrary.h">
+      <Filter>Plugins\TimePlugin\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\TimePlugin\Source\Private\TimeManager.cpp">
+      <Filter>Plugins\TimePlugin\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\TimePlugin\Source\Private\TimePlugin.cpp">
+      <Filter>Plugins\TimePlugin\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\TimePlugin\Source\Public">
+      <UniqueIdentifier>{A12AE6F2-2B86-4C5D-B12D-29EE991CB2A3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\TimePlugin\Source\Public\TimeDateStruct.h">
+      <Filter>Plugins\TimePlugin\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\TimePlugin\Source\Public\TimeManager.h">
+      <Filter>Plugins\TimePlugin\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\TimePlugin\Source\Public\TimePlugin.h">
+      <Filter>Plugins\TimePlugin\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\WeatherDataPlugin\Source">
+      <UniqueIdentifier>{29EAEDA0-830B-4CE3-AA80-670CF625E5C1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\WeatherDataPlugin\Source\WeatherDataPlugin.Build.cs">
+      <Filter>Plugins\WeatherDataPlugin\Source</Filter>
+    </None>
+    <Filter Include="Plugins\WeatherDataPlugin\Source\Private">
+      <UniqueIdentifier>{44E46FE3-2987-4610-AB8B-77C4F34AEC57}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\WeatherDataPlugin\Source\Private\WeatherDataFunctionLibrary.h">
+      <Filter>Plugins\WeatherDataPlugin\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\WeatherDataPlugin\Source\Private\WeatherDataManager.cpp">
+      <Filter>Plugins\WeatherDataPlugin\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WeatherDataPlugin\Source\Private\WeatherDataPlugin.cpp">
+      <Filter>Plugins\WeatherDataPlugin\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WeatherDataPlugin\Source\Private\WeatherDataStruct.cpp">
+      <Filter>Plugins\WeatherDataPlugin\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\WeatherDataPlugin\Source\Public">
+      <UniqueIdentifier>{8433BA11-6CF2-43A9-9D79-9E146B9CD235}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\WeatherDataPlugin\Source\Public\WeatherDataManager.h">
+      <Filter>Plugins\WeatherDataPlugin\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WeatherDataPlugin\Source\Public\WeatherDataPlugin.h">
+      <Filter>Plugins\WeatherDataPlugin\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WeatherDataPlugin\Source\Public\WeatherDataStruct.h">
+      <Filter>Plugins\WeatherDataPlugin\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\EnvironmentProject">
+      <UniqueIdentifier>{CFE9C764-FA04-447B-BBC1-B0616FE3A438}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EnvironmentProject\EnvironmentProject.Build.cs">
+      <Filter>Source\EnvironmentProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EnvironmentProject\EnvironmentProject.cpp">
+      <Filter>Source\EnvironmentProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EnvironmentProject\EnvironmentProject.h">
+      <Filter>Source\EnvironmentProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

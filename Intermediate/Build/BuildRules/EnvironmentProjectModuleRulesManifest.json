@@ -1,0 +1,14 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Source\\EnvironmentProject\\EnvironmentProject.Build.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Plugins\\BuoyancyPlugin\\Source\\BuoyancyPlugin\\BuoyancyPlugin.Build.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Plugins\\FishPlugin\\Source\\FishPlugin\\FishPlugin.Build.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Plugins\\OceanPlugin\\Source\\OceanPlugin\\OceanPlugin.Build.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Plugins\\SkyPlugin\\Source\\SkyPlugin.Build.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Plugins\\TimePlugin\\Source\\TimePlugin.Build.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Plugins\\WeatherDataPlugin\\Source\\WeatherDataPlugin.Build.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Source\\EnvironmentProject.Target.cs",
+		"C:\\Users\\HARSHAL\\Documents\\github\\Environment-Project\\Source\\EnvironmentProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
