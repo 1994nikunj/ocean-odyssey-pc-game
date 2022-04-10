@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.Material Name="T_boat_fishing02_Mat1"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/FishBoat/Textures/T_boat_fishing02.T_boat_fishing02"'
+      MaterialExpressionEditorX=-250
+      MaterialExpressionGuid=C354A9976C4D0DBF8EEF62A877C9B31D
+      Material=Material'"T_boat_fishing02_Mat1"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=ECF56A095E49CAC0792637BE3621F2BC
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/FishBoat/Textures/T_boat_fishing02.T_boat_fishing02"'),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=7F5DB3314348044055554C8108C3A6B9
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=659643B11D45D22F4476F687E353D293
+End Object
