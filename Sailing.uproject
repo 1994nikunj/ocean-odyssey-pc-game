@@ -1,16 +1,25 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "4.27",
-	"Category": "",
-	"Description": "",
-	"Plugins": [
-		{
-			"Name": "Water",
-			"Enabled": true
-		},
-		{
-			"Name": "ShallowWater",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "4.27",
+  "Category": "",
+  "Description": "",
+  "Plugins": [
+    {
+      "Name": "Water",
+      "Enabled": true
+    },
+    {
+      "Name": "ActorPalette",
+      "Enabled": true
+    },
+    {
+      "Name": "AESGCMHandlerComponent",
+
+      "Enabled": true
+    },
+    {
+      "Name": "ShallowWater",
+      "Enabled": true
+    }
+  ]
 }
